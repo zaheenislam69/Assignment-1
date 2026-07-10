@@ -1,7 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Inter";
 }
+/* navigation bar */
 nav {
   display: flex;
   justify-content: space-around;
@@ -22,27 +26,25 @@ button {
   border-radius: 10px;
   color: white;
   font-weight: bold;
+  border: none;
 }
+/* banner  */
 .banner {
-  height: 800px;
-  width: 1500px;
+ height: 100vh;
+
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: column;
 
   background-image:
-    linear-gradient(to right, rgba(0, 0, 0, 0.6) 30%, rgba(0, 0, 0, 0) 70%),
-
+    linear-gradient(to right, rgba(0, 0, 0, 0.678) 30%, rgba(0, 0, 0, 0) 70%),
     linear-gradient(
       to top right,
       rgba(0, 0, 0, 0) 42%,
       rgba(0, 0, 0, 0.88) 87%
-
-
     ),
     url("./assets/banner.jpg");
-
 
   background-repeat: no-repeat;
   background-position: center;
@@ -50,13 +52,66 @@ button {
   color: white;
 }
 
-.txt{
-     text-align: center;
+.txt {
+  text-align: center;
   color: white;
   max-width: 830px;
 }
 
-a{
-    color: #575757;
-    text-decoration: none;
+a {
+  color: #575757;
+  text-decoration: none;
+}
+.banner-text {
+  text-align: center;
+}
+.title {
+  font-size: 80px;
+}
+.meet {
+  text-align: center;
+  font-size: 56px;
+  font-weight: bold;
+}
+.boxofspeakers{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 32px;
+  
+
+}
+.post{
+  color: #2563EB;
+  font-weight: 600;
+}
+.name{
+  font-weight: bold;
+  font-size: 20px;
+}
+.post2{
+  color: #575757;
+}
+.speaker img{
+  width: 100%;
+
+}
+.speakerbox{
+  padding: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.speaker{
+  border: #E5E7EB 0.1px solid;
+  border-radius: 9px;
+}
+.payment-header{
+  font-weight: bold;
+  font-size: 48px;
+}
+.payment-text{
+  color: #575757;
+  font-size: 16px;
 }
