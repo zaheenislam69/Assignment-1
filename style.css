@@ -83,6 +83,9 @@ a {
 .post {
   color: #2563eb;
   font-weight: 600;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-size: 12px;
 }
 .name {
   font-weight: bold;
@@ -90,6 +93,8 @@ a {
 }
 .post2 {
   color: #575757;
+  padding-bottom: 7px;
+  padding-top: 4px;
 }
 .speaker img {
   width: 100%;
@@ -285,11 +290,6 @@ a {
 
 .ftrs {
   padding-bottom: 20px;
-}
-
-.cardbtn {
-  align-items: center;
-  justify-content: center;
 }
 
 /* extra AI section */
